@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+  color: white;
+  background: gray;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+p {
+  text-align: center;
+  color: grey;
+  font-size: 15px;
+}
+
+input {
+  margin: 5px;
+  border: 1px solid grey;
+  padding: 8px;
+  text-align: center;
+  font-size: 10px;
+  color: grey;
+  outline: none;
+}
+
+button {
+  border: 1px solid grey;
+  padding: 10px;
+  background: grey;
+  color: white;
+  border-radius: 10px;
+  width: 100px;
+  font-size: 12.5px;
+  cursor: pointer;
+}
+
+form {
+  text-align: center;
+}
+
+.input-box {
+  border-radius: 10px;
+}
