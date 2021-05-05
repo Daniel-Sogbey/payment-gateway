@@ -1,27 +1,36 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
     <title>Welcome</title>
+    <script src="https://kit.fontawesome.com/be109e74a9.js" crossorigin="anonymous"></script>
 </head>
-<body>
-   {{>header}}
-   <form action="">
-    <input class="input-box" id="fd1" type= "text" placeholder="Amount" required><br>
-    <input class="input-box" id="fd2" type="text" placeholder="Your network provider" required><br>
-    <input class="input-box" id="fd3" type="text" disabled placeholder="Recipient number" required><br>
-    <input class="input-box" id="fd4" type="text" placeholder="Your number" required><br>
-    <input class="input-box" id="fd5" type="text" placeholder="Options" required>
-    <input class="input-box" id="fd6" type="text" disabled placeholder="sorted out"><br>
-    <button type="submit">submit</button>
-</form>
 
-<p id =  "messageOne"></p>
-<p id = "messageTwo"></p>
+<body>
+    {{>header}}
+    <div class="icon">
+        <p class="tunes">Tunes</p><i class="fab fa-amazon-pay"></i>
+    </div>
+    <form class="form-card" action="">
+        <input autocomplete="off" class="input-box" id="fd1" type="text" placeholder="Amount" required><br>
+        <input autocomplete="off" class="input-box" id="fd2" type="text" placeholder="Your network provider"
+            required><br>
+        <input autocomplete="off" class="input-box" id="fd3" type="text" disabled placeholder="Recipient number"
+            required><br>
+        <input autocomplete="off" class="input-box" id="fd4" type="text" placeholder="Your number" required><br>
+        <input class="input-box" id="fd5" type="text" placeholder="Options" required>
+        <input autocomplete="off" class="input-box" id="fd6" type="text" disabled placeholder="sorted out"><br>
+        <button class="btn" type="submit">Checkout</button>
+    </form>
+
+    <p id="messageOne"></p>
+    <p id="messageTwo"></p>
 
     <p id="reminder"></p>
-   {{>footer}}
-   <script src="/js/app.js"></script>
+    {{>footer}}
+    <script src="/js/app.js"></script>
 </body>
+
 </html>

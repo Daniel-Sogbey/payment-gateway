@@ -1,15 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   text-align: center;
   color: white;
-  background: gray;
+  background: #4b788f;
   padding: 10px;
-  border-radius: 6px;
+  border-radius: 0;
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 15px;
 }
 
 p {
   text-align: center;
   color: grey;
-  font-size: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.tunes{
+  display: inline-block;
+  margin: auto 5px;
+  color: #4b788f;
+}
+
+.icon {
+  color: #4b788f;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin: 5px auto;
+}
+
+.form-card {
+  border: 1px solid  grey;
+  width: 35%;
+  margin: auto;
+  padding: 35px;
+  padding-bottom:45px;
+  height: 60%;
+  background-color: #4b788f;
+  border-radius: 8px;
+  
 }
 
 input {
@@ -37,6 +74,30 @@ form {
   text-align: center;
 }
 
+::placeholder{
+  color: #4b788f;
+}
+
 .input-box {
   border-radius: 10px;
+  padding: 12px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  margin: 10px;
+}
+
+.btn {
+  color: #4b788f;
+  background-color: #d8e6ec;
+  width: 80%;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+.btn:hover {
+  color: #4b788f;
+  background-color:#fff;
+  text-transform: uppercase;
 }
